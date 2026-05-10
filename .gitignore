@@ -1,0 +1,49 @@
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Claude Code / ローカル設定 =====
+.claude/
+.claude/settings.local.json
+.claude/*.local.*
+
+# ===== ログ / 一時ファイル =====
+*.log
+*.tmp
+*.bak
+*.old
+
+# ===== Node / フロント（将来用） =====
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+coverage/
+
+# ===== 環境変数 / 秘密情報 =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service_account*.json
+token.json
+
+# ===== Python（補助スクリプトを置く場合） =====
+__pycache__/
+*.pyc
+.venv/
+venv/
