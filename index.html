@@ -3,193 +3,155 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advance | 美容通販事業</title>
-  <meta name="description" content="Advance（アドバンス）は美容商品を中心とした通販事業を展開する企業です。">
-  <link rel="stylesheet" href="css/style.css">
+  <title>株式会社Advance | 公式サイト</title>
+  <meta name="description" content="株式会社Advanceは、世の中を変えるイノベーティブな商品開発を目指すメーカー事業会社です。">
+  <meta property="og:title" content="株式会社Advance | 公式サイト">
+  <meta property="og:description" content="世の中を変えるイノベーティブな商品開発を目指すメーカー事業会社です。">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='34' font-family='Arial' font-weight='700' fill='white'%3EA%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <!-- ========== HEADER ========== -->
-  <header class="header" id="header">
-    <div class="header__inner">
-      <a href="#" class="header__logo">
-        <span class="logo-mark">A</span>
-        <span class="logo-text">Advance</span>
-      </a>
-      <button class="header__hamburger" id="hamburger" aria-label="メニュー">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="header__nav" id="nav">
-        <a href="#about">About</a>
-        <a href="#service">Service</a>
-        <a href="#company">Company</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="株式会社Advance トップへ">
+      <img class="brand__logo" src="assets/advance-logo.png" alt="Advance">
+    </a>
+    <button class="menu-button" id="menuButton" type="button" aria-expanded="false" aria-controls="globalNav" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="global-nav" id="globalNav" aria-label="グローバルナビゲーション">
+      <a href="#concept">Concept</a>
+      <a href="#brand">Brand</a>
+      <a href="#business">Business</a>
+      <a href="#company">Company</a>
+    </nav>
   </header>
 
-  <!-- ========== HERO ========== -->
-  <section class="hero" id="hero">
-    <div class="hero__overlay"></div>
-    <div class="hero__content">
-      <p class="hero__sub">Beauty × Commerce</p>
-      <h1 class="hero__title">美しさを、届ける。</h1>
-      <p class="hero__desc">美容商品を通じて、<br class="sp-only">一人ひとりの毎日を豊かに。</p>
-      <a href="#contact" class="hero__cta">お問い合わせ</a>
-    </div>
-    <div class="hero__scroll">
-      <span>Scroll</span>
-      <div class="hero__scroll-line"></div>
-    </div>
-  </section>
+  <main id="top">
+    <section class="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Official Website</p>
+        <h1>イノベーティブな<br>商品開発で、<br>世の中を変える。</h1>
+        <p class="hero__lead">株式会社Advanceは、メーカー事業を通じて新しい価値ある商品づくりに取り組む会社です。</p>
+      </div>
+    </section>
 
-  <!-- ========== ABOUT ========== -->
-  <section class="section about" id="about">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__label">About</p>
-        <h2 class="section__title">私たちについて</h2>
-      </div>
-      <div class="about__content">
-        <div class="about__text">
-          <p>Advanceは、美容をテーマにした通販事業を展開しています。</p>
-          <p>厳選した美容商品をお届けし、お客様一人ひとりの「美しくありたい」という想いに寄り添います。品質にこだわり、信頼されるブランドを目指して、日々進化し続けています。</p>
+    <section class="section concept" id="concept">
+      <div class="section__inner split">
+        <div>
+          <p class="section__label">Concept</p>
+          <h2>まだない選択肢を、日常へ。</h2>
         </div>
-        <div class="about__values">
-          <div class="about__value">
-            <div class="about__value-number">01</div>
-            <h3>品質へのこだわり</h3>
-            <p>厳選した商品のみをお届けし、お客様の満足を第一に考えます。</p>
-          </div>
-          <div class="about__value">
-            <div class="about__value-number">02</div>
-            <h3>信頼と実績</h3>
-            <p>お客様との長期的な信頼関係を大切に、誠実な事業運営を行います。</p>
-          </div>
-          <div class="about__value">
-            <div class="about__value-number">03</div>
-            <h3>進化し続ける</h3>
-            <p>常に新しい価値を追求し、美容業界のトレンドを先取りします。</p>
-          </div>
+        <div class="section__body">
+          <p>私たちは、生活者の変化と市場の兆しを捉え、世の中を変える可能性を持つイノベーティブな商品開発に向き合います。</p>
+          <p>企画から製造、販売までを一貫して考え、実用性と独自性を備えた商品を社会へ届けていきます。</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== SERVICE ========== -->
-  <section class="section service" id="service">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__label">Service</p>
-        <h2 class="section__title">事業内容</h2>
-      </div>
-      <div class="service__grid">
-        <div class="service__card">
-          <div class="service__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="23" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M24 14c-4 0-8 3-8 8s4 12 8 14c4-2 8-8 8-14s-4-8-8-8z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            </svg>
-          </div>
-          <h3>美容商品の企画・販売</h3>
-          <p>スキンケア、ヘアケア、ボディケアなど、厳選した美容商品を企画・販売しています。</p>
-        </div>
-        <div class="service__card">
-          <div class="service__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="23" stroke="currentColor" stroke-width="1.5"/>
-              <rect x="14" y="18" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
-              <path d="M18 18v-2a6 6 0 0 1 12 0v2" stroke="currentColor" stroke-width="1.5"/>
-            </svg>
-          </div>
-          <h3>ECサイト運営</h3>
-          <p>自社ECサイトを通じて、全国のお客様へ美容商品をお届けしています。</p>
-        </div>
-        <div class="service__card">
-          <div class="service__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="23" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16 32l4-8 4 4 4-10 4 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <h3>マーケティング</h3>
-          <p>SNSやデジタル広告を活用し、商品の魅力をお客様へ的確にお届けします。</p>
+    <section class="section brand-section" id="brand">
+      <div class="brand-section__bg" aria-hidden="true"></div>
+      <div class="section__inner brand-section__inner">
+        <div class="brand-section__content">
+          <p class="section__label">Brand</p>
+          <p class="brand-section__name">LUMIROS / ルミロス</p>
+          <h2>ホテルステイのような非日常を、日常へ。</h2>
+          <p>ルミロスは、毎日のバスタイムを少し特別な時間へ変えることを目指すフレグランスケアブランドです。</p>
+          <p>上質な香りと心地よい使用感を通じて、慌ただしい日常の中に、ホテルで過ごすような余白と高揚感を届けます。</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== COMPANY ========== -->
-  <section class="section company" id="company">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__label">Company</p>
-        <h2 class="section__title">会社概要</h2>
+    <section class="section business" id="business">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__label">Business</p>
+          <h2>事業内容</h2>
+        </div>
+        <div class="business-grid">
+          <div class="business-card">
+            <div class="business-card__media" aria-hidden="true">
+              <svg class="business-card__icon" viewBox="0 0 48 48" role="img">
+                <path d="M10 17.5 24 10l14 7.5v15L24 40 10 32.5v-15Z"/>
+                <path d="m10 17.5 14 7.5 14-7.5"/>
+                <path d="M24 25v15"/>
+                <path d="m17 13.8 14 7.4"/>
+              </svg>
+              <div class="business-card__number">01</div>
+            </div>
+            <div>
+              <h3>メーカー事業</h3>
+              <p>市場ニーズに基づく商品の企画・開発・製造・販売を行います。</p>
+            </div>
+          </div>
+          <div class="business-card">
+            <div class="business-card__media" aria-hidden="true">
+              <svg class="business-card__icon" viewBox="0 0 48 48" role="img">
+                <path d="M9 37h30"/>
+                <path d="M12 33V14"/>
+                <path d="M12 31c6-1 9.5-5 13-10 3 4 6.5 7 11 8"/>
+                <path d="m31 21 6 8-9 2"/>
+                <path d="M18 36v-7"/>
+                <path d="M26 36v-11"/>
+                <path d="M34 36v-8"/>
+              </svg>
+              <div class="business-card__number">02</div>
+            </div>
+            <div>
+              <h3>コンサルティング事業</h3>
+              <p>10年以上のマーケティング実績に基づいて、通販でのウェブマーケティングを中心としたコンサルティング実行支援を行います。</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="company__table-wrap">
-        <table class="company__table">
-          <tbody>
-            <tr><th>会社名</th><td>Advance</td></tr>
-            <tr><th>所在地</th><td>東京都渋谷区</td></tr>
-            <tr><th>設立</th><td>2024年</td></tr>
-            <tr><th>事業内容</th><td>美容商品の企画・販売、EC事業</td></tr>
-            <tr><th>URL</th><td>advance-inc.com</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== CONTACT ========== -->
-  <section class="section contact" id="contact">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__label">Contact</p>
-        <h2 class="section__title">お問い合わせ</h2>
+    <section class="section company" id="company">
+      <div class="section__inner">
+        <div class="section__heading">
+          <p class="section__label">Company</p>
+          <h2>会社概要</h2>
+        </div>
+        <dl class="company-list">
+          <div>
+            <dt>会社名</dt>
+            <dd>株式会社Advance</dd>
+          </div>
+          <div>
+            <dt>代表者</dt>
+            <dd>代表取締役 輪嶋 秀栄</dd>
+          </div>
+          <div>
+            <dt>所在地</dt>
+            <dd>東京都目黒区下目黒1丁目1番14号　コノトラビル7F</dd>
+          </div>
+          <div>
+            <dt>設立</dt>
+            <dd>2026年4月8日</dd>
+          </div>
+          <div>
+            <dt>資本金</dt>
+            <dd>100万円</dd>
+          </div>
+          <div>
+            <dt>事業内容</dt>
+            <dd>メーカー事業、コンサルティング事業</dd>
+          </div>
+        </dl>
       </div>
-      <p class="contact__lead">お気軽にお問い合わせください。</p>
-      <form class="contact__form" id="contactForm">
-        <div class="form__group">
-          <label for="name">お名前 <span class="required">必須</span></label>
-          <input type="text" id="name" name="name" required placeholder="山田 太郎">
-        </div>
-        <div class="form__group">
-          <label for="email">メールアドレス <span class="required">必須</span></label>
-          <input type="email" id="email" name="email" required placeholder="example@email.com">
-        </div>
-        <div class="form__group">
-          <label for="subject">件名</label>
-          <input type="text" id="subject" name="subject" placeholder="お問い合わせ件名">
-        </div>
-        <div class="form__group">
-          <label for="message">お問い合わせ内容 <span class="required">必須</span></label>
-          <textarea id="message" name="message" rows="6" required placeholder="お問い合わせ内容をご記入ください"></textarea>
-        </div>
-        <button type="submit" class="contact__submit">送信する</button>
-      </form>
-      <div class="contact__thanks" id="contactThanks" style="display:none;">
-        <p>お問い合わせありがとうございます。<br>内容を確認の上、担当者よりご連絡いたします。</p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- ========== FOOTER ========== -->
-  <footer class="footer">
-    <div class="footer__inner">
-      <div class="footer__logo">
-        <span class="logo-mark">A</span>
-        <span class="logo-text">Advance</span>
-      </div>
-      <nav class="footer__nav">
-        <a href="#about">About</a>
-        <a href="#service">Service</a>
-        <a href="#company">Company</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <p class="footer__copy">&copy; 2024 Advance. All Rights Reserved.</p>
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <a class="site-footer__logo" href="#top" aria-label="株式会社Advance トップへ">
+        <img src="assets/advance-logo.png" alt="Advance">
+      </a>
+      <small>&copy; 2026 Advance Inc.</small>
     </div>
   </footer>
 
